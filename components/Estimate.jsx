@@ -17,7 +17,7 @@ function Estimate() {
                 {isLoading ? null : (
                     <>
                         <p className="text-3xl font-bold uppercase text-center">
-                            Project Estimate
+                            Price / Hour Estimation
                         </p>
                         <p className="text-2xl font-normal tracking-widest mt-4">
                             $ {projectEstimate} / {totalHours.toFixed(2)} Hours
