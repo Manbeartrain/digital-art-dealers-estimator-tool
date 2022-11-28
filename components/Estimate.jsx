@@ -19,8 +19,9 @@ function Estimate() {
                         <p className="text-3xl font-bold uppercase text-center">
                             Price / Hour Estimation
                         </p>
-                        <p className="text-2xl font-normal tracking-widest mt-4">
-                            $ {projectEstimate} / {totalHours.toFixed(2)} Hours
+                        <p className="text-lg font-normal tracking-widest mt-4 text-center">
+                            $ {projectEstimate.toFixed(2)} /{" "}
+                            {totalHours.toFixed(2)} Hours
                         </p>
                     </>
                 )}

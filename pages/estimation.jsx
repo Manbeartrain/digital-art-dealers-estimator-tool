@@ -5,7 +5,7 @@ import Estimate from "../components/Estimate";
 
 function Estimation() {
     return (
-        <div className="h-screen lg:h-screen w-screen bg-[#10172a] flex justify-center items-center flex-col py-16">
+        <div className="h-auto py-16 lg:h-screen w-screen bg-[#10172a] flex justify-center items-center flex-col">
             <Link
                 href="/complexity"
                 className="flex justify-center items-center cursor-pointer absolute top-5 left-5 rounded-full border-4 border-white p-2 hover:border-blue-600 hover:bg-blue-600 transition-all ease-in-out">

@@ -19,7 +19,7 @@ function ComplexitySelection() {
     };
 
     return (
-        <div className="mt-8 w-full  flex justify-center items-center flex-col">
+        <div className=" w-full  flex justify-center items-center flex-col">
             <div className="flex gap-x-6 lg:gap-x-24 mt-8 lg:mt-2">
                 <Selection
                     icon={<ImHappy2 className="text-6xl" />}
